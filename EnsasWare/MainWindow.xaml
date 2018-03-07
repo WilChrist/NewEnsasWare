@@ -32,7 +32,7 @@
             <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
         </Grid>
         <Grid x:Name="GridMain" Height="460" Background="Aquamarine">
-            
+            <local:GestionFiliere HorizontalAlignment="Left" Height="460" VerticalAlignment="Top" Width="1080"/>
         </Grid>
     </StackPanel>
 </Window>
