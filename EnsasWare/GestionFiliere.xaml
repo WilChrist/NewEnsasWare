@@ -5,10 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EnsasWare"
              xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="EnsasWare.GestionFiliere"
-             mc:Ignorable="d" Width="719" Height="477" Background="#F6FFFFFF">
-    <Grid Background="White">
-        <telerik:RadCarousel x:Name="radfil" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Height="244" Width="648" Loaded="radfil_Loaded"/>
-        <Grid x:Name="controlgrid" HorizontalAlignment="Left" Height="188" Margin="126,279,0,0" VerticalAlignment="Top" Width="484" Background="#FFE3EEF7">
+             mc:Ignorable="d" Width="1080" Height="460" Background="#F6FFFFFF">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Opera Instantané_2018-03-07_015357_www.rts.ch.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <telerik:RadCarousel x:Name="radfil" HorizontalAlignment="Right" Margin="0,10,38,0" VerticalAlignment="Top" Height="247" Width="954" Loaded="radfil_Loaded" Background="{x:Null}"/>
+        <Grid x:Name="controlgrid" HorizontalAlignment="Left" Height="188" Margin="308,262,0,0" VerticalAlignment="Top" Width="484" Background="#77E3EEF7">
             <Label Content="ID Filière" HorizontalAlignment="Left" Margin="55,23,0,0" VerticalAlignment="Top" Width="92" Background="{x:Null}" BorderBrush="#FFDEBDBD" Foreground="Black"/>
             <TextBox HorizontalAlignment="Left" Height="30" Margin="168,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
             <TextBox HorizontalAlignment="Left" Height="30" Margin="168,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
